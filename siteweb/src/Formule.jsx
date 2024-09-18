@@ -1,5 +1,6 @@
 import Button from './components/button';
 import React from 'react';
+import Icone_Eclaire from './components/Icone_Eclaire';
 const Formule = () =>{
     
     return (
@@ -70,19 +71,24 @@ const Formule = () =>{
     <h1 className='font-bold text-center'>Les Options</h1>
     <div className=" flex flex-row">
     <div className="container mx-auto "><h1>Hébergements</h1>
-    <p className='text-sm'>Hébergement
-Gratuit 
-Payant 
-</p></div>
+    
+    <p className='text-sm'>    <Icone_Eclaire />
+    Gratuit </p>
+    <p className='text-sm'>    <Icone_Eclaire />
+    Payant </p>
+</div>
     <div className="mx-auto"><h1>Nom domain</h1>
-    <p className='text-sm'>Nom de domaine
-Sans nom de domaine personnalisé (ex. : votresite.wordpress.com)
-Avec nom de domaine personnalisé (ex. : votresite.com)</p>
+    <p className='text-sm'>    <Icone_Eclaire />
+    Sans nom de domaine personnalisé (ex. : votresite.wordpress.com)</p>
+    <p className='text-sm'>    <Icone_Eclaire />
+    Avec nom de domaine personnalisé (ex. : votresite.com)</p>
     </div>
     <div className="mx-auto"><h1>Création du contenu </h1>
-    <p className='text-sm'>Création de contenu
-Sans création de contenu : Vous me fournissez tous les textes et images nécessaires
-Avec création de contenu : Rédaction de textes et création de visuels professionnels pour le site</p></div>
+    <p className='text-sm'>    <Icone_Eclaire />
+Sans création de contenu : Vous me fournissez tous les textes et images nécessaires</p>
+    <p className='text-sm'>    <Icone_Eclaire />
+    Avec création de contenu : Rédaction de textes et création de visuels professionnels pour le site</p>
+    </div>
     </div>
   </div>
 </div>

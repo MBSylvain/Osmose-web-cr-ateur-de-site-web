@@ -23,11 +23,11 @@ const Navbar = () => {
 
         {/* Navigation links for desktop */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/Home" className="nav-link text-white hover:text-gray-200">Home</Link>
-          <Link to="/Presence" className="nav-link text-white hover:text-gray-200">Presence</Link>
-          <Link to="/FormContact" className="nav-link text-white hover:text-gray-200">Contact</Link>
-          <Link to="/Projets" className="nav-link text-white hover:text-gray-200">Projects</Link>
-          <Link to="/Formule" className="nav-link text-white hover:text-gray-200">Formule</Link>
+          <Link to="/Home" className="nav-link text-black hover:text-gray-200">Home</Link>
+          <Link to="/Presence" className="nav-link text-black hover:text-gray-200">Presence</Link>
+          <Link to="/Formule" className="nav-link text-black hover:text-gray-200">Formule</Link>
+          <Link to="/Projets" className="nav-link text-black hover:text-gray-200">Projects</Link>
+          <Link to="/FormContact" className="nav-link text-black hover:text-gray-200">Contact</Link>
         </div>
       </div>
 
