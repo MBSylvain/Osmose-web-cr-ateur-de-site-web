@@ -67,28 +67,29 @@ const Formule = () =>{
   </div>
  
   </div>
-  <div className="container h-96 mx-auto border border-solid border-black">
-    <h1 className='font-bold text-center'>Les Options</h1>
-    <div className=" flex flex-row">
-    <div className="container mx-auto "><h1>Hébergements</h1>
+  <div className="container h-96 mx-auto ">
+    <h1 className='font-bold text-2xl text-center mt-8'> Quelques exemples d'options</h1>
+    <div className=" flex flex-row justify-center h-full">
+    <div className=" mx-auto w-1/3 flex flex-col justify-center items-center shadow-md shadow-slate-400 "><h1 className='text-bold m-4'>Hébergements</h1>
     
-    <p className='text-sm'>    <Icone_Eclaire />
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
     Gratuit </p>
-    <p className='text-sm'>    <Icone_Eclaire />
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
     Payant </p>
 </div>
-    <div className="mx-auto"><h1>Nom domain</h1>
-    <p className='text-sm'>    <Icone_Eclaire />
+    <div className="mx-auto  w-1/3 flex flex-col justify-center items-center"><h1 className='text-bold m-4'>Nom domain</h1>
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
     Sans nom de domaine personnalisé (ex. : votresite.wordpress.com)</p>
-    <p className='text-sm'>    <Icone_Eclaire />
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
     Avec nom de domaine personnalisé (ex. : votresite.com)</p>
     </div>
-    <div className="mx-auto"><h1>Création du contenu </h1>
-    <p className='text-sm'>    <Icone_Eclaire />
+    <div className="mx-auto  w-1/3 flex flex-col justify-center items-center"><h1 className='text-bold m-4'>Création du contenu </h1>
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
 Sans création de contenu : Vous me fournissez tous les textes et images nécessaires</p>
-    <p className='text-sm'>    <Icone_Eclaire />
+    <p className='flex flex-row text-sm'>    <Icone_Eclaire />
     Avec création de contenu : Rédaction de textes et création de visuels professionnels pour le site</p>
     </div>
+    
     </div>
   </div>
 </div>
