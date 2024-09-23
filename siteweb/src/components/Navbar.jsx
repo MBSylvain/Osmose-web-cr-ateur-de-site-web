@@ -23,21 +23,23 @@ const Navbar = () => {
 
         {/* Navigation links for desktop */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/Home" className="nav-link text-black hover:text-gray-200">Home</Link>
-          <Link to="/Presence" className="nav-link text-black hover:text-gray-200">Presence</Link>
-          <Link to="/Formule" className="nav-link text-black hover:text-gray-200">Formule</Link>
-          <Link to="/Projets" className="nav-link text-black hover:text-gray-200">Projects</Link>
-          <Link to="/FormContact" className="nav-link text-black hover:text-gray-200">Contact</Link>
-        </div>
+        <Link to="/Home" className="nav-link text-gray-500 hover:text-green-500 active:">Home</Link>
+        <Link to="/Presence" className="nav-link text-gray-500 hover:text-green-500">Presence</Link>
+        <Link to="/Formule" className="nav-link text-gray-500 hover:text-green-500">Formule</Link>
+        <Link to="/Projets" className="nav-link text-gray-500 hover:text-green-500">Projects</Link>
+        <Link to="/FormContact" className="nav-link text-gray-500 hover:text-green-500">Contact</Link>
+        <Link to="/About" className="nav-link text-gray-500 hover:text-green-500">A propos</Link> </div>
       </div>
 
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden flex flex-col space-y-4 mt-4`}>
-        <Link to="/Home" className="nav-link text-white hover:text-gray-200">Home</Link>
-        <Link to="/Presence" className="nav-link text-white hover:text-gray-200">Presence</Link>
-        <Link to="/FormContact" className="nav-link text-white hover:text-gray-200">Contact</Link>
-        <Link to="/Projets" className="nav-link text-white hover:text-gray-200">Projects</Link>
-        <Link to="/Formule" className="nav-link text-white hover:text-gray-200">Formule</Link>
+        <Link to="/Home" className="nav-link text-gray-500 hover:text-green-500">Home</Link>
+        <Link to="/Presence" className="nav-link text-gray-500 hover:text-green-500">Presence</Link>
+        <Link to="/Formule" className="nav-link text-gray-500 hover:text-green-500">Formule</Link>
+        <Link to="/Projets" className="nav-link text-gray-500 hover:text-green-500">Projects</Link>
+        <Link to="/FormContact" className="nav-link text-gray-500 hover:text-green-500">Contact</Link>
+        <Link to="/About" className="nav-link text-gray-500 hover:text-green-500">A propos</Link>
+
       </div>
     </nav>
   );

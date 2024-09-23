@@ -2,12 +2,12 @@ import React from 'react'
 
 const Projets = () => {
   return (
-    <div className='mt-10'>
+    <div className='container mx-auto h-96 mt-8'>
        <h1 className="text-4xl font-bold mb-4">Mes Réalisations</h1>
 
       <div className="flex flex-row mx-auto gap-4 justify-center items-center mt-6">
-      <div className="rounded w-80">
-        <div className="p-4 rounded-md shadow-md">
+      <div className="rounded w-80 h-80">
+        <div className="p-4 w-80 h-80 rounded-md shadow-md">
           <img
             src="/images/project1.jpg"
             alt="Project 1"
@@ -23,8 +23,8 @@ const Projets = () => {
         </div>
         {/* Ajoutez plus de projets ici */}
       </div>
-      <div className="rounded w-80">
-        <div className="p-4 rounded-md shadow-md">
+      <div className="rounded w-80 h-80">
+        <div className="p-4 w-80 h-80 rounded-md shadow-md">
           <img
             src="/images/project1.jpg"
             alt="Project 1"

@@ -8,9 +8,9 @@ import Projets from './Projets';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import About from './About';
-import React, { useState } from 'react';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -21,6 +21,7 @@ function App() {
           <Route path="/FormContact" element={<FormContact />} />
           <Route path="/Projets" element={<Projets />} />
           <Route path="/Formule" element={<Formule />} />
+          <Route path="/About" element={<About />} />
         </Routes>
         <Footer />
       </Router>
