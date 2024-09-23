@@ -7,6 +7,8 @@ import Presence from './Presence';
 import Projets from './Projets';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import About from './About';
+import React, { useState } from 'react';
 
 function App() {
   return (
